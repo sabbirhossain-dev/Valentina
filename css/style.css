@@ -1,0 +1,840 @@
+/**********************************************************
+                common css start
+***********************************************************/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a,
+a:hover.a:focus {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+/**********************************************************
+                common css end
+***********************************************************/
+
+
+
+/**********************************************************
+                menu-part css start
+***********************************************************/
+
+nav {
+    padding: 36px 0;
+    position: absolute !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+nav ul {
+    margin-top: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    margin-left: 27px;
+}
+
+
+nav ul li a {
+    font-size: 16px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #000000;
+    font-weight: 600;
+    transition: .4s;
+}
+
+nav ul .login a {
+    margin-left: 50px;
+    background: #fcf9fa;
+    padding: 8px 15px !important;
+    border: 1px solid #d50a51;
+    border-radius: 50px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    color: #d50a51;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+nav ul .login a i {
+    margin-right: 10px;
+}
+
+
+nav ul .login:hover a {
+    background: #d50a51;
+    color: #fff;
+}
+
+nav ul li a:hover {
+    color: #d50a51;
+
+}
+
+
+
+/**********************************************************
+                menu-part css end
+***********************************************************/
+
+
+/**********************************************************
+                banner-part css start
+***********************************************************/
+
+#banner-part {
+    background: url(../images/banner.png) no-repeat center;
+    background-size: cover;
+    padding-top: 127px;
+    margin-bottom: 95px;
+}
+
+#banner-part .img img {
+    width: 100%;
+}
+
+#banner-part .text {
+    text-align: center;
+    padding-top: 80px;
+}
+
+#banner-part .text h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 61px;
+    font-weight: 500;
+    color: #8a5e3b;
+    text-transform: uppercase;
+}
+
+#banner-part .text h1 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 84px;
+    color: #d50a51;
+    margin-top: -35px;
+}
+
+#banner-part .text p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #444444;
+    width: 540px;
+    padding-top: 25px;
+    padding-bottom: 60px;
+}
+
+#banner-part .text a {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #d50a51;
+    border: 1px solid #d50a51;
+    padding: 15px 20px;
+    border-radius: 30px;
+    transition: .4s;
+}
+
+#banner-part .text a:hover {
+    color: #fff;
+    background: #d50a51;
+    text-decoration: none;
+}
+
+
+/**********************************************************
+                banner-part css end
+***********************************************************/
+
+
+/**********************************************************
+                history-part css end
+***********************************************************/
+
+#history-part {
+    margin-bottom: 50px;
+}
+
+#history-part .img img {
+    width: 100%;
+}
+
+#history-part .para {
+    padding-top: 60px;
+    padding-bottom: 35px;
+}
+
+#history-part p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #444444;
+}
+
+#history-part h4 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #444444;
+    width: 140px;
+    margin-left: 40px;
+
+}
+
+#history-part h4 span {
+    color: #d50a51;
+    font-size: 24px;
+}
+
+
+
+
+/**********************************************************
+                history-part css end
+***********************************************************/
+
+
+
+
+/**********************************************************
+                gift-part css start
+***********************************************************/
+
+
+#gift-part {
+    background: #fff6db;
+    padding-top: 60px;
+    padding-bottom: 0;
+    margin-bottom: 50px;
+}
+
+#gift-part .img img {
+    width: 100%;
+    height: 650px;
+    margin-top: -140px;
+    margin-bottom: -25px;
+}
+
+#gift-part h4 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #444444;
+    width: 170px;
+    margin-left: 40px;
+
+}
+
+#gift-part h4 span {
+    color: #d50a51;
+    font-size: 24px;
+}
+
+#gift-part .para {
+    padding-top: 30px;
+    padding-bottom: 25px;
+}
+
+#gift-part p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #444444;
+}
+
+#gift-part .text a {
+    display: inline-block;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #d50a51;
+    border: 1px solid #d50a51;
+    padding: 7px 20px;
+    border-radius: 30px;
+    margin-top: 30px;
+    margin-right: 20px;
+    transition: .4s;
+}
+
+#gift-part .text a:hover {
+    color: #fff;
+    background: #d50a51;
+    text-decoration: none;
+}
+
+/**********************************************************
+                gift-part css end
+***********************************************************/
+
+
+
+
+
+
+/**********************************************************
+                ticket-part css start
+***********************************************************/
+
+
+#ticket-part {
+    padding-top: 60px;
+    padding-bottom: 0;
+    margin-bottom: 100px;
+}
+
+#ticket-part .img img {
+    width: 100%;
+}
+
+#ticket-part .text {
+    text-align: right;
+}
+
+#ticket-part .text h4 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #444444;
+    margin-right: 40px;
+
+}
+
+#ticket-part .text h4 span {
+    color: #d50a51;
+    font-size: 24px;
+}
+
+#ticket-part .text .para {
+    padding-top: 30px;
+    padding-bottom: 25px;
+}
+
+#ticket-part .text p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #444444;
+}
+
+#ticket-part .text a {
+    display: inline-block;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #d50a51;
+    border: 1px solid #d50a51;
+    padding: 7px 20px;
+    border-radius: 30px;
+    margin-top: 30px;
+    margin-left: 20px;
+    transition: .4s;
+}
+
+#ticket-part .text a:hover {
+    color: #fff;
+    background: #d50a51;
+    text-decoration: none;
+}
+
+/**********************************************************
+                ticket-part css end
+***********************************************************/
+
+
+
+/**********************************************************
+                offer-part css start
+***********************************************************/
+
+
+
+#offer-part {
+    background: url(../images/banner.png) no-repeat center;
+    background-size: cover;
+    padding-top: 90px;
+    padding-bottom: 20px;
+    margin-bottom: 100px;
+}
+
+#offer-part .text h4 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #444444;
+    margin-left: 40px;
+
+}
+
+#offer-part .text h4 span {
+    color: #d50a51;
+    font-size: 24px;
+}
+
+#offer-part .text .para {
+    padding-top: 30px;
+    padding-bottom: 25px;
+}
+
+#offer-part .text p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #444444;
+}
+
+#offer-part .item {
+    padding: 65px 20px 25px 20px;
+    margin-bottom: 20px;
+    transition: .4s;
+}
+
+#offer-part .item .text h5 {
+    margin-bottom: 20px;
+}
+
+#offer-part .item .text h5 img {
+    margin-top: -35px;
+    margin-right: 5px;
+}
+
+#offer-part .item .text h5 span {
+    color: #d50a51;
+    font-size: 20px;
+}
+
+#offer-part .item .text p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #444444;
+    width: 305px;
+}
+
+
+#offer-part .item:hover {
+    background: #f1f1f1;
+    border-right: 3px solid #d50a51;
+    -webkit-box-shadow: 2px 2px 3px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow: 2px 2px 3px 0px rgba(50, 50, 50, 0.75);
+    box-shadow: 2px 2px 3px 0px rgba(50, 50, 50, 0.75);
+}
+
+
+
+
+/**********************************************************
+                offer-part css end
+***********************************************************/
+
+
+
+/**********************************************************
+                capture-part css start
+***********************************************************/
+
+#capture-part {
+    margin-bottom: 50px;
+}
+
+#capture-part .text {
+    text-align: right;
+}
+
+#capture-part .text h4 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #444444;
+    margin-right: 40px;
+
+}
+
+#capture-part .text h4 span {
+    color: #d50a51;
+    font-size: 24px;
+}
+
+#capture-part .text .para {
+    padding-top: 30px;
+    padding-bottom: 25px;
+}
+
+#capture-part .text p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #444444;
+}
+
+#capture-part .text a {
+    display: inline-block;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #d50a51;
+    border: 1px solid #d50a51;
+    padding: 7px 20px;
+    border-radius: 30px;
+    margin-top: 30px;
+    margin-left: 10px;
+    transition: .4s;
+}
+
+#capture-part .text a:hover {
+    color: #fff;
+    background: #d50a51;
+    text-decoration: none;
+}
+
+#capture-part .img {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+#capture-part .img .overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, .7);
+    color: #fff;
+    opacity: 0;
+    transition: .4s;
+}
+
+#capture-part .img .overlay .icon {
+    text-align: right !important;
+    margin-left: 290px;
+}
+
+#capture-part .img .overlay .icon i {
+    display: block;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #fff;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    margin-top: 15px;
+    transition: .4s;
+}
+
+#capture-part .img .overlay p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 65px;
+}
+
+#capture-part .img .overlay ul {
+    display: flex;
+    margin: 5px 14px;
+}
+
+#capture-part .img .overlay ul li {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    margin-right: 10px;
+}
+
+
+#capture-part .img img {
+    width: 100%;
+    height: 350px;
+}
+
+
+
+#capture-part .img:hover .overlay {
+    opacity: 1;
+}
+
+#capture-part .img .overlay .icon i:hover {
+    background: #d50a51;
+    border-color: #d50a51
+}
+
+
+/**********************************************************
+                capture-part css end
+***********************************************************/
+
+
+
+/**********************************************************
+                counter-part css start
+***********************************************************/
+
+#counter-part {
+    background: url(../images/counter-bg.png) no-repeat center;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+#counter-part .text {
+    padding: 90px 0;
+}
+
+#counter-part h5 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 42px;
+    color: #d50a51;
+    font-weight: bold;
+}
+
+#counter-part p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+    color: #444444;
+    margin-top: -12px;
+}
+
+/**********************************************************
+                counter-part css end
+***********************************************************/
+
+
+
+/**********************************************************
+                team-part css start
+***********************************************************/
+
+#team-part {
+    margin-bottom: 100px;
+}
+
+#team-part .slider .item {
+    width: 100%;
+}
+
+#team-part .slider .item .left {
+    width: 49%;
+    background: #fffae2;
+    float: left;
+    padding: 40px 17px 30px 18px;
+}
+
+#team-part .slider .item .left p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+#team-part .slider .item .left .text {
+    position: absolute;
+    bottom: 50px;
+    margin-left: 120px;
+}
+
+#team-part .slider .item .left .text .name {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    color: #444444;
+    font-weight: bold;
+    margin: 0;
+}
+
+#team-part .slider .item .left .degi {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+
+
+
+
+#team-part .slider .item .right {
+    width: 49%;
+    height: 100%;
+    background: #fffae2;
+    float: left;
+    margin-left: 22px;
+    padding: 40px 17px 30px 18px;
+}
+
+#team-part .slider .item .right p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+#team-part .slider .item .right .text {
+    position: absolute;
+    bottom: 50px;
+    margin-left: 120px;
+}
+
+#team-part .slider .item .right .text .name {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    color: #444444;
+    font-weight: bold;
+    margin: 0;
+}
+
+#team-part .slider .item .right .degi {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+.prev {
+    font-size: 20px;
+    color: #d50a51;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border: 1px solid #d50a51;
+    border-radius: 50%;
+    transition: .4s;
+    position: absolute;
+    top: 50%;
+    left: -70px;
+    transform: translateY(-50%);
+}
+
+.next {
+    font-size: 20px;
+    color: #d50a51;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border: 1px solid #d50a51;
+    border-radius: 50%;
+    transition: .4s;
+    position: absolute;
+    top: 50%;
+    right: -70px;
+    transform: translateY(-50%);
+}
+
+.prev:hover {
+    color: #fff;
+    background: #d50a51;
+}
+
+.next:hover {
+    color: #fff;
+    background: #d50a51;
+}
+
+
+/**********************************************************
+                team-part css end
+***********************************************************/
+
+
+/**********************************************************
+                footer-part css start
+***********************************************************/
+
+#footer-part{
+    background: url(../images/footerbg.png) no-repeat center;
+    background-size: cover;
+    text-align: center;
+}
+
+#footer-part .img{
+    padding-top: 85px;
+    padding-bottom: 60px;
+}
+#footer-part .contact ul{
+    text-align: left;
+}
+#footer-part .contact ul li i {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 24px;
+    color: #fff;
+    background: #d50a51;
+    border: 1px solid #d50a51;
+    text-align: center;
+    line-height: 50px;
+    position: absolute;
+    top: 2px;
+    left: 50px;
+}
+
+#footer-part .contact ul li {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #444;
+    padding-left: 110px;
+}
+
+
+#footer-part h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    color: #d50a51;
+    text-align: center !important;
+    padding-bottom: 20px;
+    padding-top: 50px;
+}
+#footer-part .link{
+    padding-bottom: 50px;
+}
+#footer-part .link a i {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 20px;
+    line-height: 40px;
+    color: #d50a51;
+    border: 1px solid #d50a51;
+    text-align: center;
+    transition: .4s;
+    margin-right: 10px;
+}
+
+#footer-part .link a:hover i {
+    background: #d50a51;
+    color: #fff;
+}
+
+#footer-part  p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #444;
+    background: #fce1ed;
+    text-align: center;
+    padding: 20px 0;
+}
+
+#footer-part  span {
+    color: #d50a51;
+}
+/**********************************************************
+                footer-part css end
+***********************************************************/
+
+
+
+
